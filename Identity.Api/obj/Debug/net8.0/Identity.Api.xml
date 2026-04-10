@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Identity.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Identity.Api.Common.BaseRoute">
+            <summary>
+            Clase que proporciona la ruta base para los controladores API.
+            </summary>
+        </member>
+        <member name="T:Identity.Api.Controllers.BaseController">
+            <summary>
+            Base Controller 
+            </summary>
+        </member>
+        <member name="P:Identity.Api.Controllers.BaseController.Mediator">
+            <summary>
+             Mediator 
+            </summary>
+        </member>
+        <member name="T:Identity.Api.PersistenceContextFactory">
+            <summary>
+            Factory for creating the PersistenceContext.
+            </summary>
+        </member>
+        <member name="M:Identity.Api.PersistenceContextFactory.CreateDbContext(System.String[])">
+            <summary>
+            Creates a new instance of the PersistenceContext.
+            </summary>
+        </member>
+    </members>
+</doc>
